@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f4fafc;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #017c7f;
+  color: white;
+  padding: 20px 0;
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  width: 85%;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive Boxes */
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.box {
+  background-color: #009688;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 10px;
+  flex: 1 1 200px;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+  .box-container {
+    flex-direction: column;
+  }
+}
+
+/* Quiz Styles */
+#quiz-container {
+  background: #e9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+#options button {
+  background-color: #007b7f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#options button:hover {
+  background-color: #009688;
+}
+
+#nextBtn {
+  margin-top: 15px;
+  background: #007b7f;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#nextBtn:hover {
+  background: #009688;
+}
+
+footer {
+  background-color: #007b7f;
+  color: white;
+  padding: 10px 0;
+  font-size: 14px;
+}
